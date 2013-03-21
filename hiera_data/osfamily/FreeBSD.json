@@ -1,0 +1,7 @@
+{   
+   "ntp::pkg_name" : "net/ntp",
+   "ntp::svc_name" : "ntpd",
+   "ntp::config"   : "/etc/ntp.conf",
+   "ntp::config_tpl" : "ntp.conf.freebsd.erb",
+   "ntp::supported" : true
+}

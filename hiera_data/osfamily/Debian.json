@@ -1,0 +1,7 @@
+{   
+   "ntp::pkg_name" : "ntp",
+   "ntp::svc_name" : "ntp",
+   "ntp::config"   : "/etc/ntp.conf",
+   "ntp::config_tpl" : "ntp.conf.debian.erb",
+   "ntp::supported" : true
+}

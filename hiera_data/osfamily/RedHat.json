@@ -3,5 +3,10 @@
    "ntp::svc_name" : "ntpd",
    "ntp::config"   : "/etc/ntp.conf",
    "ntp::config_tpl" : "ntp.conf.el.erb",
-   "ntp::supported" : true
+   "ntp::supported" : true,
+   "ntp::servers" : [
+       "0.centos.pool.ntp.org",
+       "1.centos.pool.ntp.org",
+       "2.centos.pool.ntp.org"
+   ]
 }
